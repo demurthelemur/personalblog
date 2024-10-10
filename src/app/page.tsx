@@ -1,3 +1,7 @@
 export default function Home() {
-  return <></>;
+  return (
+    <>
+      <p className="font-p text-p"> Test</p>
+    </>
+  );
 }
