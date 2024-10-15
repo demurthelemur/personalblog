@@ -4,7 +4,7 @@ import Image from "next/image";
 import QuestionAndAnswer from "@/components/ui/questionAndAnswer";
 import QA from "../lib/questionsAndAnswers";
 import Techstack from "@/components/ui/techstack";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/customButton";
 import { useRouter } from "next/navigation";
 
 export default function Home() {
