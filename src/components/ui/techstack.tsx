@@ -7,29 +7,43 @@ import Swift from "@/components/svg/Swift.svg";
 import Tailwind from "@/components/svg/Tailwind.svg";
 import Typescript from "@/components/svg/Typescript.svg";
 import Vue from "@/components/svg/Vue.svg";
-import styles from "./Carousel.module.css"; // CSS module for styling
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
-const icons = [Expo, NodeJS, React, Redux, Swift, Tailwind, Typescript, Vue]; // Array of SVG components
+const icons = [
+  Expo,
+  NodeJS,
+  React,
+  Redux,
+  Swift,
+  Tailwind,
+  Typescript,
+  Vue,
+  NextJS,
+];
 
-const Carousel: React.FC = () => (
-  <div className={styles.carousel}>
-    <Expo />
-    <div className={styles.track}>
-      {icons.map((Icon, index) => (
-        <div key={`icon-${index}`} className={styles.iconWrapper}>
-          <Icon />
-        </div>
-      ))}
-      <div className={styles.iconWrapper}>
-        <NextJS />
-      </div>
-      {icons.map((Icon, index) => (
-        <div key={`icon-duplicate-${index}`} className={styles.iconWrapper}>
-          <Icon />
-        </div>
-      ))}
-    </div>
-  </div>
-);
-
-export default Carousel;
+export default function TechStack() {
+  return (
+    <Carousel
+      opts={{
+        align: "end",
+      }}
+      className="w-full"
+    >
+      <CarouselContent>
+        {icons.map((Icon, index) => (
+          <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+            <Icon />
+          </CarouselItem>
+        ))}
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
+  );
+}

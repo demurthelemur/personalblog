@@ -31,9 +31,9 @@ export default function Home() {
       >
         SHOW PORTFOLIO
       </Button>
-
-      <Techstack />
-
+      <div className="w-full mt-14 mb-14">
+        <Techstack />
+      </div>
       <h5 className="font-h5 text-h5 mb-8">Frequently Asked Questions</h5>
       {QA.map((item, index) => (
         <QuestionAndAnswer
