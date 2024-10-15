@@ -3,6 +3,7 @@
 import Image from "next/image";
 import QuestionAndAnswer from "@/components/ui/questionAndAnswer";
 import QA from "../lib/questionsAndAnswers";
+import Techstack from "@/components/ui/techstack";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 
@@ -30,6 +31,8 @@ export default function Home() {
       >
         SHOW PORTFOLIO
       </Button>
+
+      <Techstack />
 
       <h5 className="font-h5 text-h5 mb-8">Frequently Asked Questions</h5>
       {QA.map((item, index) => (
