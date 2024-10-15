@@ -36,6 +36,14 @@ const config: Config = {
         h5: ["35.5px", { lineHeight: "1.1", fontWeight: "400" }],
         h6: ["26.7px", { lineHeight: "1.1", fontWeight: "400" }],
       },
+      borderRadius: {
+        none: "0",
+        sm: "0.125rem",
+        md: "0.375rem",
+        lg: "1.0rem",
+        full: "9999px",
+        large: "12px",
+      },
     },
   },
   plugins: [tailwindcssAnimate], // Use the imported plugin
