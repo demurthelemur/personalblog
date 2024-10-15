@@ -21,7 +21,7 @@ const Carousel: React.FC = () => (
         </div>
       ))}
       <div className={styles.iconWrapper}>
-        <NextJS width={220} />
+        <NextJS />
       </div>
       {icons.map((Icon, index) => (
         <div key={`icon-duplicate-${index}`} className={styles.iconWrapper}>

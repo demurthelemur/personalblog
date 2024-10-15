@@ -18,7 +18,6 @@
 }
 
 .iconWrapper {
-  min-width: 12.5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,6 +29,6 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-150%); /* Move by half the content's width */
+    transform: translateX(-150%);
   }
 }

@@ -16,8 +16,10 @@ export default function QuestionAndAnswerr({
           {question}
         </h5>
       </div>
-      <div className="border-2 border-secondary h-28 rounded-lg">
-        <p className="text-p font-p m-4">{answer}</p>
+      <div className="border-2 border-secondary h-56 sm:h-32 md:h-42 lg:h-32  rounded-lg">
+        <p className="text-s sm:text-base lg:text-xl xl:text-p font-p m-4">
+          {answer}
+        </p>
       </div>
     </div>
   );
