@@ -60,9 +60,9 @@ export default function Contact() {
   };
 
   return (
-    <div className="flex flex-col place-items-center mb-32 ">
-      <h3 className="font-h3 text-h3">Check Out My Socials</h3>
-      <div className=" place-items-center pt-2 mt-4 flex gap-12">
+    <div className="flex flex-col place-items-center mb-32 mt-8 lg:mt-16 ">
+      <h3 className="font-h3 text-h5 lg:text-h3">Check Out My Socials</h3>
+      <div className=" place-items-center lg:pt-2 lg:mt-4 flex gap-4 lg:gap-12">
         <Github className="cursor-pointer" onClick={githubClicked} />
         <LinkedIn className="cursor-pointer" onClick={linkedInClicked} />
         <Twitter className="cursor-pointer" onClick={twitterClicked} />
@@ -71,8 +71,11 @@ export default function Contact() {
           onClick={instagramClicked}
         />
       </div>
-      <h4 className="text-h4 font-h4 mb-12">Or Leave a Message</h4>
-      <form onSubmit={handleSubmit} className="space-y-4 w-3/6 flex flex-col ">
+      <h4 className="text-h5 lg:text-h4 font-h4 mb-12">Or Leave a Message</h4>
+      <form
+        onSubmit={handleSubmit}
+        className="space-y-4 w-full lg:w-3/6 flex flex-col "
+      >
         <div>
           <label htmlFor="name" className="font-p text-md block">
             Name:

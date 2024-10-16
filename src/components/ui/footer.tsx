@@ -29,7 +29,7 @@ export default function Footer() {
   return (
     <div className="mt-20 mb-16">
       <p className="text-p font-p">2024 © DemurTheLemur</p>
-      <div className="border-t-2 border-third pt-2 mt-4 flex gap-4 w-2/5">
+      <div className="border-t-2 border-third pt-2 mt-4 flex gap-2 lg:gap-4 w-full lg:w-2/5">
         <Github className="cursor-pointer" onClick={githubClicked} />
         <LinkedIn className="cursor-pointer" onClick={linkedInClicked} />
         <Twitter className="cursor-pointer" onClick={twitterClicked} />
