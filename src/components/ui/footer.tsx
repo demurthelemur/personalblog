@@ -16,7 +16,10 @@ export default function Footer() {
   }, []);
 
   const linkedInClicked = useCallback(() => {
-    window.open("  www.linkedin.com/in/demir-dereli-62465b1a8", "_blank");
+    window.open(
+      "https://www.linkedin.com/in/demir-dereli-62465b1a8/",
+      "_blank"
+    );
   }, []);
 
   const twitterClicked = useCallback(() => {
@@ -24,13 +27,13 @@ export default function Footer() {
   }, []);
 
   return (
-    <div className="mt-16 mb-16">
+    <div className="mt-20 mb-16">
       <p className="text-p font-p">2024 © DemurTheLemur</p>
-      <div className="border-t-2 border-third pt-2 mt-4 flex gap-4">
-        <Github onClick={githubClicked} />
-        <LinkedIn onClick={linkedInClicked} />
-        <Twitter onClick={twitterClicked} />
-        <Instagram onClick={instagramClicked} />
+      <div className="border-t-2 border-third pt-2 mt-4 flex gap-4 w-2/5">
+        <Github className="cursor-pointer" onClick={githubClicked} />
+        <LinkedIn className="cursor-pointer" onClick={linkedInClicked} />
+        <Twitter className="cursor-pointer" onClick={twitterClicked} />
+        <Instagram className="cursor-pointer" onClick={instagramClicked} />
       </div>
     </div>
   );
