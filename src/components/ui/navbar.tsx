@@ -40,13 +40,13 @@ const Navbar: React.FC = () => {
               Portfolio
             </h6>
           </Link>
-          <Link href="/resume">
+          <Link href="/aboutMe">
             <h6
               className={`text-h6 font-h6 hover:text-primary ${
-                pathname === "/resume" ? "underline" : ""
+                pathname === "/aboutMe" ? "underline" : ""
               }`}
             >
-              Resume
+              About Me
             </h6>
           </Link>
           <Link href="/contact">

@@ -37,7 +37,7 @@ export default function TechStack() {
     >
       <CarouselContent>
         {icons.map((Icon, index) => (
-          <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+          <CarouselItem key={index} className=" md:basis-1/2 lg:basis-1/5">
             <Icon />
           </CarouselItem>
         ))}
