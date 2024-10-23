@@ -9,11 +9,11 @@ export default function Resume() {
       </h2>
       <h4 className="font-h4 text-h4"> aka DemurTheLemur</h4>
       <p className="font-p text-p pt-12 lg:mx-36 text-center leading-9 ">
-        I'm a frontend and mobile developer from Türkiye, currently working at
-        Albaraka Tech Global as a Frontend Developer. I graduated from Sabancı
-        University with a degree in Computer Science in 2024. I'm really
-        passionate about technology and always eager to learn more to improve my
-        skills.
+        I&#39;m a frontend and mobile developer from Türkiye, currently working
+        at Albaraka Tech Global as a Frontend Developer. I graduated from
+        Sabancı University with a degree in Computer Science in 2024. I&#39;m
+        really passionate about technology and always eager to learn more to
+        improve my skills.
       </p>
 
       <p className="font-p text-p pt-8 lg:mx-36 text-center leading-9 ">
