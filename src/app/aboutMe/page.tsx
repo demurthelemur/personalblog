@@ -10,10 +10,9 @@ export default function Resume() {
       <h4 className="font-h4 text-h4"> aka DemurTheLemur</h4>
       <p className="font-p text-p pt-12 lg:mx-36 text-center leading-9 ">
         I&#39;m a frontend and mobile developer from Türkiye, currently working
-        at Albaraka Tech Global as a Frontend Developer. I graduated from
-        Sabancı University with a degree in Computer Science in 2024. I&#39;m
-        really passionate about technology and always eager to learn more to
-        improve my skills.
+        at HubX as a React Native Developer. I graduated from Sabancı University
+        with a degree in Computer Science in 2024. I&#39;m really passionate
+        about technology and always eager to learn more to improve my skills.
       </p>
 
       <p className="font-p text-p pt-8 lg:mx-36 text-center leading-9 ">
@@ -23,8 +22,8 @@ export default function Resume() {
         background across different platforms.
       </p>
       <p className="font-p text-p pt-8 lg:mx-36 text-center leading-9 ">
-        Outside of coding, I enjoy diving into 3D art, music production, and
-        gaming. I also love to travel and meet new people, which helps me stay
+        Outside of coding, I enjoy diving into gaming, music production, and
+        art. I also love to travel and meet new people, which helps me stay
         inspired and creative.
       </p>
       <p className="font-p text-p pt-8 pb-8 lg:mx-36 text-center leading-9 ">
